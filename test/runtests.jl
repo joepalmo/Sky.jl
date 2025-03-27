@@ -1,6 +1,8 @@
-using Sky
-using Test
+using Sky, Test
 
-@testset "Sky.jl" begin
-    # Write your tests here.
+@testset "BoxModel Basic Test" begin
+    sol = Sky.BoxModel.run_simple_simulation()
+    @test length(sol.t) > 0
+    @test sol.retcode == :Success
 end
+

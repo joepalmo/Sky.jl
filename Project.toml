@@ -3,7 +3,17 @@ uuid = "2a48aa17-b437-424f-9555-caa0e7c93836"
 authors = ["Joe Palmo"]
 version = "1.0.0-DEV"
 
+[deps]
+Catalyst = "479239e8-5488-4da2-87a7-35f2df7eef83"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
+
 [compat]
+Catalyst = "14.4.1"
+DifferentialEquations = "7.16.1"
+ModelingToolkit = "9.69.0"
+SteadyStateDiffEq = "2.5.0"
 julia = "1.6.7"
 
 [extras]
